@@ -1,8 +1,8 @@
 import React from "react";
-import { setState } from "react";
+import { useState } from "react";
 const Score = () => {
-  const [score, setScore] = setState(0);
-  const [wicket, setWicket] = setState(0);
+  const [score, setScore] = useState(0);
+  const [wicket, setWicket] = useState(0);
   return (
     <div>
       <h1>Runs {score}</h1>
