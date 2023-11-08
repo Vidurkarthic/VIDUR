@@ -37,7 +37,7 @@ const Score = () => {
       </button>
       <button
         onClick={() => {
-          setWicket(Wicket + 1);
+          setWicket(wicket + 1);
         }}
       >
         Wicket
