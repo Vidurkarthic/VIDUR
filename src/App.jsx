@@ -1,10 +1,9 @@
-import "./App.css";
-import Score from "./day3/Score";
+import Theme from "./extra activities/Theme";
 
 function App() {
   return (
     <div>
-      <Score></Score>
+      <Theme></Theme>
     </div>
   );
 }
