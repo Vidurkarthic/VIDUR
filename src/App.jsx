@@ -1,9 +1,9 @@
-import Theme from "./extra activities/Theme";
 
+import DynamicRendering from "./day3/Rendering";
 function App() {
   return (
     <div>
-      <Theme></Theme>
+      <DynamicRendering/>
     </div>
   );
 }
